@@ -99,7 +99,7 @@ export const SharableStyle = css<SharableStyleProps>`
   padding-left: ${({ pl }) => checkForValues(pl, sizes)};
 
   border: ${({ border }) => checkForValues(border, null)};
-  border-color: ${({ borderColor }) => checkForValues(borderColor, null)};
+  border-color: ${({ borderColor }) => checkForValues(borderColor, colors)};
   border-style: ${({ borderStyle }) => checkForValues(borderStyle, null)};
   border-width: ${({ borderWidth }) => checkForValues(borderWidth, null)};
   border-top: ${({ bt }) => checkForValues(bt, null)};

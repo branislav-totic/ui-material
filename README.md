@@ -1,46 +1,61 @@
-# Getting Started with Create React App
+# Getting Started with UI-material
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Avalible elements:
 
-## Available Scripts
+- Flex
+- Heading
+- Wrapper
 
-In the project directory, you can run:
+## Sharable props avalible:
 
-### `yarn start`
+w: normal css
+h: normal css
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+color: primary,secondary,success,danger,warning,info,light,dark,muted,white,hex,rgb(a) or any normal css
+textAlign: normal css
+fontFamily: normal css
+fontWeight: normal css
+fontSize: xsm(4px),sm(8px),md(16px),lg(24px),xlg(32px) or any normal css
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+margin: 1(4px),2(8px),3(16px),4(24px),5(32px) or any normal css
+mt: 1(4px),2(8px),3(16px),4(24px),5(32px) or any normal css
+mr: 1(4px),2(8px),3(16px),4(24px),5(32px) or any normal css
+mb: 1(4px),2(8px),3(16px),4(24px),5(32px) or any normal css
+ml: 1(4px),2(8px),3(16px),4(24px),5(32px) or any normal css
 
-### `yarn test`
+padding: 1(4px),2(8px),3(16px),4(24px),5(32px) or any normal css
+pt: 1(4px),2(8px),3(16px),4(24px),5(32px) or any normal css
+pr: 1(4px),2(8px),3(16px),4(24px),5(32px) or any normal css
+pb: 1(4px),2(8px),3(16px),4(24px),5(32px) or any normal css
+pl: 1(4px),2(8px),3(16px),4(24px),5(32px) or any normal css
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+border: 1(4px),2(8px),3(16px),4(24px),5(32px) or any normal css
+borderColor: primary,secondary,success,danger,warning,info,light,dark,muted,white,hex,rgb(a) or any normal css
+borderStyle: normal css
+borderWidth: normal css
+bt: 1(4px),2(8px),3(16px),4(24px),5(32px) or any normal css
+br: 1(4px),2(8px),3(16px),4(24px),5(32px) or any normal css
+bb: 1(4px),2(8px),3(16px),4(24px),5(32px) or any normal css
+bl: 1(4px),2(8px),3(16px),4(24px),5(32px) or any normal css
+borderRadius: normal css
 
-### `yarn build`
+bg: primary,secondary,success,danger,warning,info,light,dark,muted,white,hex,rgb(a) or any normal css
+bgColor: primary,secondary,success,danger,warning,info,light,dark,muted,white,hex,rgb(a) or any normal css
+bgImage: normal css
+bgPosition: normal css
+bgSize: normal css
+bgRepeat: normal css
+bgOrigin: normal css
+bgClip: normal css
+bgAttachment: normal css
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Aditional FLex and Wrapper props:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+align: normal css
+basis: normal css
+grow: normal css
+justify: normal css
+shrink: normal css
+wrap: normal css
+gap: normal css
+order: normal css
