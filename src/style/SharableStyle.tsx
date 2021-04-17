@@ -118,3 +118,28 @@ export const SharableStyle = css<SharableStyleProps>`
   background-clip: ${({ bgClip }) => checkForValues(bgClip, null)};
   background-attachment: ${({ bgAttachment }) => checkForValues(bgAttachment, null)};
 `;
+
+export interface FlexSharedStyleProps extends SharableStyleProps {
+  readonly align?: string;
+  readonly basis?: string;
+  readonly direction?: string;
+  readonly grow?: string;
+  readonly justify?: string;
+  readonly shrink?: string;
+  readonly wrap?: string;
+  readonly gap?: string;
+  readonly order?: string;
+}
+
+export const FlexSharedStyle = css<FlexSharedStyleProps>`
+  ${SharableStyle}
+  align-items: ${({ align }) => checkForValues(align, null)};
+  flex-basis: ${({ basis }) => checkForValues(basis, null)};
+  flex-direction: ${({ direction }) => checkForValues(direction, null)};
+  flex-grow: ${({ grow }) => checkForValues(grow, null)};
+  justify-content: ${({ justify }) => checkForValues(justify, null)};
+  flex-shrink: ${({ shrink }) => checkForValues(shrink, null)};
+  flex-wrap: ${({ wrap }) => checkForValues(wrap, null)};
+  gap: ${({ gap }) => checkForValues(gap, null)};
+  order: ${({ order }) => checkForValues(order, null)};
+`;
